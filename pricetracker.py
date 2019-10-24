@@ -52,4 +52,5 @@ while(True):
     if (current_price <= target_price):
         notify()
         break;
+    print('Price is too high right now. Check back later.')
     time.sleep(60*60*24) #seconds in a day
